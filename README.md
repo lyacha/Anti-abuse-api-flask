@@ -1,5 +1,5 @@
-# Anti-abuse-api-flask
-API which returns cusswords , can be used to check cusswords in bots etc.
+# Anti Abuse API Flask
+API which returns cusswords, can be used to check cusswords in bots or etc.
 
 ## Run
 
@@ -11,11 +11,11 @@ API which returns cusswords , can be used to check cusswords in bots etc.
 
 ```/api/v1``` returns all the cusswords.
 
-```/api/v1/check?q={string}``` returns `True` or `False` if the query matches the cusswords in api.
+```/api/v1/check?q={string}``` returns `True` or `False` if the query matches the cusswords in API.
 
-## How to Contribute ?
+## How to Contribute?
 
-Fork the repository , open **cuss_words.txt** and enter the words in new lines.
+Fork the repository, open **cuss_words.txt** and enter the words in new lines.
 
 Make a **Pull Request**.
 
