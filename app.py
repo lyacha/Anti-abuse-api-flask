@@ -21,18 +21,15 @@ api = Api(app)
 
 
 class Home(Resource):
-
     def get(self):
         return 'Invalid Request'
 
 class abuseapi(Resource):
-
     def get(self):
         abuses = get_content("cuss_words.txt")
         return jsonify(abuses)
 
 class check(Resource):
-
     def get(self):
         abuses = get_content("cuss_words.txt")
         parser = reqparse.RequestParser()
